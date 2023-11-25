@@ -37,10 +37,12 @@ function Home() {
         <option value="en">English</option>
       </select>
       </div>
+      <div className='last-msg-container'>
       <p className='usercount'>
         {I18n("usersStatmessage", "<studentCount>", usersCount)}
       </p>
       <h5 className='last-msg'>{I18n("endmessage")}</h5>
+      </div>
     </div>
 
   )
